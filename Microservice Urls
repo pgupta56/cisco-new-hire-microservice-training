@@ -1,0 +1,13 @@
+Eureka Server - http://localhost:8761/
+
+Product Service - 8080
+http://localhost:8080/create?id=1&item=MobilePhones&count=5000
+http://localhost:8080/get?item=MobilePhones
+http://localhost:8080/getAll
+http://localhost:8080/update?id=1&item=MobilePhones&count=100
+http://localhost:8080/delete?item=TV
+http://localhost:8080/deleteAll
+
+
+Product-Audit-Service -
+http://localhost:8089/audit-products
